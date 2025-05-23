@@ -11,11 +11,11 @@ class BMI:
 
         if self.bmi < 18.5:
             print("You are underweight.")
-        elif self.bmi > 18.5 and self.bmi < 24.9:
+        elif self.bmi >= 18.5 and self.bmi < 25:
             print("You are healthy.")
-        elif self.bmi > 24.9 and self.bmi < 29.9:
+        elif self.bmi >= 25 and self.bmi < 30:
             print("You are overweight.")
-        elif self.bmi > 30:
+        elif self.bmi >= 30:
             print("You are obese.")
 
 
