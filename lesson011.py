@@ -28,8 +28,8 @@ while True:
 
     choice = int(input())
 
-    if choice is 1:
+    if choice == 1:
         bmi.calculateBmi()
-    elif choice is 2:
+    elif choice == 2:
         exit()
 
